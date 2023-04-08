@@ -1,0 +1,12 @@
+ .grid-container {
+    
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+    height: 200px;
+    border: solid;
+}
+#triangle_svg {
+ filter: blur(5px);
+
+}
