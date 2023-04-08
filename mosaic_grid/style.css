@@ -1,12 +1,13 @@
- .grid-container {
-    
-  grid-template-columns: auto auto auto;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+    height: 600px;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
 }
 .grid-item {
-    height: 200px;
     border: solid;
-}
-#triangle_svg {
- filter: blur(5px);
-
 }
